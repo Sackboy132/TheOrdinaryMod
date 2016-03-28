@@ -34,5 +34,4 @@ public class TOM {
 	public void postInit(FMLPostInitializationEvent event) {
 
 	}
-
 }
