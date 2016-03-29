@@ -1,1 +1,5 @@
 item.raw_worm.name=Raw Worm
+item.cooked_worm.name=Cooked Worm
+
+achievement.worms_for_two=Worms for Two?
+achievement.worms_for_two.desc=Cook a Raw Worm. Yuck!

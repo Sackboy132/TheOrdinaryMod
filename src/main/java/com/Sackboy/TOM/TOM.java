@@ -1,8 +1,11 @@
 package com.Sackboy.TOM;
 
+import com.Sackboy.TOM.init.TOMAchievements;
 import com.Sackboy.TOM.init.TOMItems;
+import com.Sackboy.TOM.init.TOMRecipes;
 import com.Sackboy.TOM.proxy.CommonProxy;
 
+import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -23,11 +26,19 @@ public class TOM {
 		TOMItems.init();
 		TOMItems.register();
 		
+		/* Recipes */
+		TOMRecipes.register();
+		
+		/* Achievements */
+		TOMAchievements.init();
+		TOMAchievements.register();
+		
 	}
 
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
 		proxy.registerRenders();
+		FMLCommonHandler.instance().bus().register(new TOMEventHandler());
 	}
 
 	@EventHandler

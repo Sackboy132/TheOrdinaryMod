@@ -10,17 +10,21 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class TOMItems {
 
 	public static Item raw_worm;
+	public static Item cooked_worm;
 
 	public static void init() {
 		raw_worm = new Item().setUnlocalizedName("raw_worm");
+		cooked_worm = new Item().setUnlocalizedName("cooked_worm");
 	}
 
 	public static void register() {
 		GameRegistry.registerItem(raw_worm, raw_worm.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(cooked_worm, cooked_worm.getUnlocalizedName().substring(5));
 	}
 
 	public static void registerRenders() {
 		registerRender(raw_worm);
+		registerRender(cooked_worm);
 	}
 
 	public static void registerRender(Item item) {
