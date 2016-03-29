@@ -19,6 +19,8 @@ public class TOM {
 	@SidedProxy(clientSide = ModInfo.CLIENTPROXY, serverSide = ModInfo.SERVERPROXY)
 	public static CommonProxy proxy;
 	
+	public static final TOMTab tabTOM = new TOMTab("tabTOM");
+	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		
