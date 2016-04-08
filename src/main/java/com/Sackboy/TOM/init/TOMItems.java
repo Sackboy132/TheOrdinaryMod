@@ -2,7 +2,7 @@ package com.Sackboy.TOM.init;
 
 import com.Sackboy.TOM.ModInfo;
 import com.Sackboy.TOM.TOM;
-import com.Sackboy.TOM.items.ItemPotion;
+import com.Sackboy.TOM.item.ItemPotion;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;

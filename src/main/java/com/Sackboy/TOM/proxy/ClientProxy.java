@@ -1,9 +1,9 @@
 package com.Sackboy.TOM.proxy;
 
-import com.Sackboy.TOM.Mob.EntityCrawler;
-import com.Sackboy.TOM.Model.ModelCrawler;
-import com.Sackboy.TOM.Render.RenderCrawler;
 import com.Sackboy.TOM.init.TOMItems;
+import com.Sackboy.TOM.mob.EntityCrawler;
+import com.Sackboy.TOM.model.ModelCrawler;
+import com.Sackboy.TOM.render.RenderCrawler;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.ModelBase;

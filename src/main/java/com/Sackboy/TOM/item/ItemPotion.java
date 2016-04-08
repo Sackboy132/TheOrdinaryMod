@@ -1,4 +1,4 @@
-package com.Sackboy.TOM.items;
+package com.Sackboy.TOM.item;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.PotionTypes;
