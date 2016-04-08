@@ -2,11 +2,8 @@ package com.Sackboy.TOM;
 
 import com.Sackboy.TOM.init.TOMAchievements;
 import com.Sackboy.TOM.init.TOMItems;
-<<<<<<< HEAD
 import com.Sackboy.TOM.init.TOMMobs;
-=======
 import com.Sackboy.TOM.init.TOMRecipes;
->>>>>>> origin/master
 import com.Sackboy.TOM.proxy.CommonProxy;
 
 import net.minecraftforge.fml.common.FMLCommonHandler;
@@ -35,17 +32,16 @@ public class TOM {
 		/* Items */
 		TOMItems.init();
 		TOMItems.register();
-		
-<<<<<<< HEAD
+
+		/* Mobs */
 		TOMMobs.register();
-=======
+		
 		/* Recipes */
 		TOMRecipes.register();
 		
 		/* Achievements */
 		TOMAchievements.init();
 		TOMAchievements.register();
->>>>>>> origin/master
 		
 	}
 
