@@ -16,6 +16,7 @@ public class TOMItems {
 
 	public static Item raw_worm;
 	public static Item cooked_worm;
+	public static Item test;
 
 	public static void init() {
 		raw_worm = new ItemFood(2, 0.5f, false).setUnlocalizedName("raw_worm").setCreativeTab(TOM.tabTOM); // Will be poisonous in the future.
