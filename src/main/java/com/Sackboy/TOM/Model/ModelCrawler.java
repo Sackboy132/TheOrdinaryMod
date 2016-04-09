@@ -70,7 +70,6 @@ public class ModelCrawler extends ModelBase {
 		
         float f6 = (180F / (float)Math.PI);
 
-
         /* Arms */
         this.rightarm.rotateAngleY = MathHelper.cos(f * 0.6662f) * 1.4f * f1;
         this.leftarm.rotateAngleY = MathHelper.cos(f * 0.6662f + (float)Math.PI) * 1.4f * f1;
