@@ -13,7 +13,6 @@ public class RenderCrawler extends RenderLiving {
 
 	public RenderCrawler(RenderManager rendermanagerIn, ModelBase modelbaseIn, float shadowsizeIn) {
 		super(rendermanagerIn, modelbaseIn, shadowsizeIn);
-		// TODO Auto-generated constructor stub
 	}	
 
 	private static final ResourceLocation CrawlerTexture = new ResourceLocation(

@@ -12,6 +12,6 @@ public class TOMTab extends CreativeTabs {
 
 	@Override
 	public Item getTabIconItem() {
-		return Items.apple;
+		return Items.tipped_arrow;
 	}
 }
