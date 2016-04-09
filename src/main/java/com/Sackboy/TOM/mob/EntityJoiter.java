@@ -35,6 +35,6 @@ public class EntityJoiter extends EntityMob {
 
 	@Override
 	protected Item getDropItem() {
-		return Items.acacia_boat;
+		return Items.feather;
 	}
 }

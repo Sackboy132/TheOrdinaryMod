@@ -17,4 +17,5 @@ public class TOMAchievements {
 		
 		AchievementPage.registerAchievementPage(new AchievementPage("The Ordinary Mod", new Achievement[]{ worms_for_two }));
 	}
+	
 }
