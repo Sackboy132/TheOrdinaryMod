@@ -6,6 +6,8 @@ import net.minecraftforge.common.AchievementPage;
 
 public class TOMAchievements {
 
+	// TODO: Add more Achievements throughout Development
+	
 	public static Achievement worms_for_two;
 
 	public static void init() {
@@ -17,4 +19,5 @@ public class TOMAchievements {
 		
 		AchievementPage.registerAchievementPage(new AchievementPage("The Ordinary Mod", new Achievement[]{ worms_for_two }));
 	}
+	
 }

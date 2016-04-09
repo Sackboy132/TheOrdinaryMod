@@ -1,6 +1,7 @@
 package com.Sackboy.TOM;
 
 import com.Sackboy.TOM.init.TOMAchievements;
+import com.Sackboy.TOM.init.TOMBlocks;
 import com.Sackboy.TOM.init.TOMItems;
 import com.Sackboy.TOM.init.TOMMobs;
 import com.Sackboy.TOM.init.TOMRecipes;
@@ -33,6 +34,10 @@ public class TOM {
 		TOMItems.init();
 		TOMItems.register();
 
+		/* Blocks */
+		TOMBlocks.init();
+		TOMBlocks.register();
+		
 		/* Mobs */
 		TOMMobs.register();
 		

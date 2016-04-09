@@ -1,5 +1,7 @@
 package com.Sackboy.TOM;
 
+import com.Sackboy.TOM.init.TOMItems;
+
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
@@ -12,6 +14,6 @@ public class TOMTab extends CreativeTabs {
 
 	@Override
 	public Item getTabIconItem() {
-		return Items.tipped_arrow;
+		return TOMItems.cooked_worm;
 	}
 }

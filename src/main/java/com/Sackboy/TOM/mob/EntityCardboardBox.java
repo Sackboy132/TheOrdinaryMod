@@ -1,4 +1,6 @@
-package com.Sackboy.TOM.Mob;
+package com.Sackboy.TOM.mob;
+
+import com.Sackboy.TOM.init.TOMItems;
 
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.EntityAIHurtByTarget;
@@ -12,9 +14,9 @@ import net.minecraft.item.Item;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class EntityJoiter extends EntityMob {
+public class EntityCardboardBox extends EntityMob {
 
-	public EntityJoiter(World worldIn) {
+	public EntityCardboardBox(World worldIn) {
 		super(worldIn);
 		this.setSize(0.75f, 1.2f);
 		this.tasks.addTask(0, new EntityAIWander(this, 0.50d));
@@ -35,6 +37,6 @@ public class EntityJoiter extends EntityMob {
 
 	@Override
 	protected Item getDropItem() {
-		return Items.feather;
+		return TOMItems.cardboard;
 	}
 }
