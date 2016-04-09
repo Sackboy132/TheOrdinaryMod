@@ -1,4 +1,4 @@
-package com.Sackboy.TOM.mob;
+package com.Sackboy.TOM.Mob;
 
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.EntityAIHurtByTarget;
