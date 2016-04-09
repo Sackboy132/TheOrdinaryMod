@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class TOMBlocks {
 
-
+	// TODO: Add more blocks
 
 	public static void init() {
 		
