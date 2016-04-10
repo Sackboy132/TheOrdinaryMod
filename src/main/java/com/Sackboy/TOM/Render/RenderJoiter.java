@@ -1,5 +1,4 @@
-package com.Sackboy.TOM.Render;
-
+package com.Sackboy.TOM.render;
 
 import com.Sackboy.TOM.ModInfo;
 

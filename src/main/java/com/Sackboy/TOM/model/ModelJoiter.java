@@ -1,4 +1,4 @@
-package com.Sackboy.TOM.Model;
+package com.Sackboy.TOM.model;
 
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.model.ModelRenderer;

@@ -1,14 +1,9 @@
 package com.Sackboy.TOM.init;
 
 import com.Sackboy.TOM.TOM;
-<<<<<<< HEAD
-import com.Sackboy.TOM.Mob.EntityCrawler;
-import com.Sackboy.TOM.Mob.EntityJoiter;
-=======
 import com.Sackboy.TOM.mob.EntityCardboardBox;
 import com.Sackboy.TOM.mob.EntityCrawler;
 import com.Sackboy.TOM.mob.EntityJoiter;
->>>>>>> origin/master
 
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.world.biome.BiomeGenBase;
