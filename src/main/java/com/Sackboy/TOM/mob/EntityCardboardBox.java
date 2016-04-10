@@ -1,4 +1,4 @@
-package com.Sackboy.TOM.Mob;
+package com.Sackboy.TOM.mob;
 
 import com.Sackboy.TOM.init.TOMItems;
 
