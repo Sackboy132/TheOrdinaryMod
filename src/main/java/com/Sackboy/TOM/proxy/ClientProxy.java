@@ -1,7 +1,10 @@
 package com.Sackboy.TOM.proxy;
 
+import com.Sackboy.TOM.Mob.EntityCrawler;
 import com.Sackboy.TOM.Mob.EntityJoiter;
+import com.Sackboy.TOM.Model.ModelCrawler;
 import com.Sackboy.TOM.Model.ModelJoiter;
+import com.Sackboy.TOM.Render.RenderCrawler;
 import com.Sackboy.TOM.Render.RenderJoiter;
 import com.Sackboy.TOM.init.TOMItems;
 
@@ -14,8 +17,8 @@ public class ClientProxy extends CommonProxy {
 	public void registerRenders() {
 		TOMItems.registerRenders();
 
-		//RenderingRegistry.registerEntityRenderingHandler(EntityCrawler.class,
-			//	new RenderCrawler(Minecraft.getMinecraft().getRenderManager(), new ModelCrawler(), 0f));
+		RenderingRegistry.registerEntityRenderingHandler(EntityCrawler.class,
+				new RenderCrawler(Minecraft.getMinecraft().getRenderManager(), new ModelCrawler(), 0f));
 		RenderingRegistry.registerEntityRenderingHandler(EntityJoiter.class,
 				new RenderJoiter(Minecraft.getMinecraft().getRenderManager(), new ModelJoiter(), 0f));
 	}

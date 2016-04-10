@@ -1,14 +1,10 @@
 package com.Sackboy.TOM.init;
 
+
 import com.Sackboy.TOM.TOM;
-<<<<<<< HEAD
+import com.Sackboy.TOM.Mob.EntityCardboardBox;
 import com.Sackboy.TOM.Mob.EntityCrawler;
 import com.Sackboy.TOM.Mob.EntityJoiter;
-=======
-import com.Sackboy.TOM.mob.EntityCardboardBox;
-import com.Sackboy.TOM.mob.EntityCrawler;
-import com.Sackboy.TOM.mob.EntityJoiter;
->>>>>>> origin/master
 
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.world.biome.BiomeGenBase;
@@ -21,7 +17,7 @@ public class TOMMobs {
 	public static void register() {
 		createEntity(EntityCrawler.class, "Crawler", 0x175D5A, 0x9E1C1C);
 		createEntity(EntityJoiter.class, "Joiter", 0x406533, 0xF38727);
-		createEntity(EntityCardboardBox.class, "Cardboard Box", 0x406533, 0xF38727);
+		createEntity(EntityCardboardBox.class, "Cardboard Box", 0xd28b4d, 0xa56237);
 	}
 
 	public static void createEntity(Class entity, String name, int solid, int spot) {
